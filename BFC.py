@@ -19,7 +19,7 @@ for char in content_list:
 	elif char == "-":
 		pointer[index]-+1
 	elif char == ".":
-		print (chr(int(char)))
+		#print (chr(int(char))) syntax error here. Fix later
 	elif char == ",":
 		pointer[index]=ord(char)
 		
