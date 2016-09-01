@@ -9,37 +9,29 @@ def evaluate(user_choice, computer_choice):
 	usr_choice_index=possible_choices.index(user_choice)
 	cpu_choice_index=possible_choices.index(computer_choice)
 	
+	time.sleep(.3)
 	if usr_choice_index==0:
 		if cpu_choice_index==0:
-			time.sleep(.3)
 			print("It's a draw!")
 		if cpu_choice_index==1:
-			time.sleep(.3)
 			print("You lose!")
 		if cpu_choice_index==2:
-			time.sleep(.3)
 			print("You win!")
 		
 	if usr_choice_index==1:
 		if cpu_choice_index==0:
-			time.sleep(.3)
 			print("You win!")
 		if cpu_choice_index==1:
-			time.sleep(.3)
 			print("It's a draw!")
 		if cpu_choice_index==2:
-			time.sleep(.3)
 			print("You lose!")
 		
 	if usr_choice_index==2:
 		if cpu_choice_index==0:
-			time.sleep(.3)
 			print("You lose!")
 		if cpu_choice_index==1:
-			time.sleep(.3)
 			print("You win!")
 		if cpu_choice_index==2:
-			time.sleep(.3)
 			print("It's a draw!")
 	
 
